@@ -78,6 +78,7 @@ def authenticate_user():
         return None
 
 def show_menu(profile):
+    # Ler arquivo CSV.
     menu_config = MENUS[profile]
     
     print("\n" + "="*35)
