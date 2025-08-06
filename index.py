@@ -57,7 +57,7 @@ MENUS = {
 }
 
 def authenticate_user():
-    # Obter credenciais do arquivo CSV
+    # Obter credenciais do arquivo CSV!
     CREDENTIALS = {
         "123": "CLIENT",
         "321": "ADMIN"
